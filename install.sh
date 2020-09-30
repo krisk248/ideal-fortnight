@@ -1,4 +1,4 @@
-# This is a Code for installing some known software in ubuntu for hacking
+# This is a Code for installing some known software in ubuntu for hacking ubuntu 20.04 LTS
 
 
 echo -e "Hello there this program can install your tools so get ready to enter your password..."
@@ -13,8 +13,7 @@ echo -e "$(whoami) its checkhing for packges for $(uname -a) and this is $(lsb_r
 
 sudo apt-get update
 
-
-sudo apt0get upgrade;
+sudo apt-get upgrade
 
 echo -e "$(whoami) will install the neceeary tools for you from golang to burp suite to netcat and etc...."
 
@@ -38,14 +37,6 @@ GO111MODULE=on go get -v github.com/projectdiscovery/naabu/cmd/naabu
 
 GO111MODULE=on go get -u -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei
 
-go get -u github.com/tomnomnom/assetfinder
-
-go get -u github.com/tomnomnom/httprobe
-
-go get -u github.com/tomnomnom/meg
-
-go get github.com/tomnomnom/waybackurls
-
 GO111MODULE=auto go get -u -v github.com/projectdiscovery/subfinder/cmd/subfinder
 
 GO111MODULE=on go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns
@@ -61,6 +52,14 @@ GO111MODULE=on go get -u github.com/projectdiscovery/chaos-client/cmd/chaos
 go get github.com/ffuf/ffuf
 
 go get github.com/OJ/gobuster
+
+go get -u github.com/tomnomnom/assetfinder
+
+go get -u github.com/tomnomnom/httprobe
+
+go get -u github.com/tomnomnom/meg
+
+go get github.com/tomnomnom/waybackurls
 
 echo -e "the golang hunting binary are completed......"
 
