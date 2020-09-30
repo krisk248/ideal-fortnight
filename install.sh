@@ -46,8 +46,6 @@ go get -u github.com/tomnomnom/meg
 
 go get github.com/tomnomnom/waybackurls
 
-GO111MODULE=auto go get -u -v github.com/projectdiscovery/subfinder/cmd/subfinder
-
 GO111MODULE=on go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns
 
 GO111MODULE=on go get -u -v github.com/projectdiscovery/dnsprobe
@@ -84,7 +82,7 @@ sudo apt install john
 
 echo -e "The SEclist is getting ready to download............."
 
-git clone https://github.com/danielmiessler/SecLists.git
+gh repo clone clone https://github.com/danielmiessler/SecLists.git
 
 sleep 5
 
@@ -101,7 +99,7 @@ echo -e ">>>>>>>>>>>>>>>>>>>The burpsuite link is given below<<<<<<<<<<<<<<<<<<<
 echo -e "https://portswigger.net/burp/releases/professional-community-2020-9-1?requestededition=community"
 
 
-echo -e "The process is finish..... lets hack the world..............."
+echo -e "The process is finish....."
 
 
 echo -e "Please restart the computer................"
