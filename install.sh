@@ -28,6 +28,13 @@ sudo apt install netcat
 
 sudo apt install openjdk-8-jre
 
+# need to instal cli because git cli is not there in ubuntu/debian
+
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+sudo apt-add-repository https://cli.github.com/packages
+sudo apt update
+sudo apt install gh
+
 # List of go binary are installed so let rock it
 
 echo -e "now comes the most important tool of the go lang bug hunting and hacking things ...."
@@ -57,6 +64,8 @@ GO111MODULE=auto go get -u -v github.com/projectdiscovery/httpx/cmd/httpx
 GO111MODULE=auto go get -u -v github.com/projectdiscovery/httpx/cmd/httpx
 
 GO111MODULE=on go get -u github.com/projectdiscovery/chaos-client/cmd/chaos
+
+
 
 go get github.com/ffuf/ffuf
 
