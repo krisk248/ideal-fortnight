@@ -54,16 +54,6 @@ go get -u github.com/tomnomnom/meg
 
 go get github.com/tomnomnom/waybackurls
 
-GO111MODULE=on go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns
-
-GO111MODULE=on go get -u -v github.com/projectdiscovery/dnsprobe
-
-GO111MODULE=auto go get -u -v github.com/projectdiscovery/httpx/cmd/httpx
-
-GO111MODULE=on go get -u github.com/projectdiscovery/chaos-client/cmd/chaos
-
-
-
 go get github.com/ffuf/ffuf
 
 go get github.com/OJ/gobuster
