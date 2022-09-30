@@ -14,7 +14,7 @@ echo -e "$(whoami) its checkhing for packges for $(uname -a) and this is $(lsb_r
 sudo apt-get update
 
 
-sudo apt0get upgrade;
+sudo apt-get upgrade;
 
 echo -e "$(whoami) will install the neceeary tools for you from golang to burp suite to netcat and etc...."
 
