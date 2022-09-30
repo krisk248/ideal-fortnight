@@ -38,12 +38,13 @@ sudo apt install gh
 # List of go binary are installed so let rock it
 
 echo -e "now comes the most important tool of the go lang bug hunting and hacking things ...."
+go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 
-GO111MODULE=on go get -v github.com/projectdiscovery/subfinder/cmd/subfinder
+go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
-GO111MODULE=on go get -v github.com/projectdiscovery/naabu/cmd/naabu
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
-GO111MODULE=on go get -u -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei
+go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
 
 go get -u github.com/tomnomnom/assetfinder
 
